@@ -1,0 +1,51 @@
+# STM32CubeIDE / STM32CubeMX generated files
+Debug/
+Release/
+*.d
+*.elf
+*.hex
+*.map
+*.bin
+*.list
+*.o
+*.a
+
+# STM32CubeMX backup files
+*.bak
+*.orig
+
+# Mbed build output
+BUILD/
+.mbed
+mbed_settings.py
+*.NUCLEO_F401RE/
+
+# IDE specific
+.settings/
+.cproject.bak
+.metadata/
+RemoteSystemsTempFiles/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor backup files
+*~
+*.swp
+*.swo
+\#*\#
+
+# Word/PowerPoint temp files
+~$*.docx
+~$*.pptx
+
+# Compiled Python files (if any scripts are added)
+__pycache__/
+*.pyc
