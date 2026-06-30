@@ -35,7 +35,20 @@ STM32_NUCLEO_F401RE/                          ← This companion repo
 ├── 📄 CONTRIBUTING.md                        ← Contribution guidelines
 ├── 📄 LICENSE                                ← MIT License
 │
-├── 📂 docs/
+├── 📂 01_GPIO_LED_Button/                    ← GPIO Lab materials
+│   └── 📂 STM32_NUCLEO_F401RE/
+├── 📂 02_Timers_PWM/                         ← Timer & PWM Lab materials
+│   ├── 📂 Exercise_Easy/
+│   └── 📂 Exercise_Hard/
+├── 📂 03_Interrupts/                         ← EXTI Lab materials
+├── 📂 04_UART_Communication/                 ← UART Lab materials
+├── 📂 05_ADC_DAC/                            ← ADC/DAC Lab materials
+├── 📂 Final_Project/                         ← Final Coursework Project
+│   ├── 📂 Hardware/
+│   ├── 📂 Software/
+│   └── 📂 Documentation/
+│
+├── 📂 docs/                                  ← Documentation & notes
 │   ├── setup/
 │   │   ├── environment-setup.md              ← STM32CubeIDE + Wokwi setup guide
 │   │   └── first-project.md                 ← First blinky walkthrough
@@ -55,7 +68,7 @@ STM32_NUCLEO_F401RE/                          ← This companion repo
 │       ├── nucleo-f401re-pinout.md           ← Board pinout quick reference
 │       └── common-circuits.md               ← Common wiring patterns
 │
-├── 📂 cheatsheets/
+├── 📂 cheatsheets/                           ← Quick references
 │   ├── hal-api-quick-ref.md                  ← HAL API one-liners
 │   ├── cubemx-config-tips.md                 ← CubeMX configuration tips
 │   └── debugging-tips.md                    ← Common bugs & fixes
@@ -134,13 +147,13 @@ graph LR
 
 | # | Project | Peripheral(s) | Platform | Main Repo |
 |---|---------|---------------|----------|-----------|
-| 01 | External Interrupt with Push Buttons & RGB LEDs | GPIO, EXTI | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/External_Interrupt_Control_Using_Push_Buttons_and_RGB_LEDs-Interrupt_Button_Counter_with_RGB_LED_Priority_and_Serial_Output) |
-| 02 | Button Counter with RGB LED Priority & Serial Output | GPIO, EXTI, UART | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/External_Interrupt_Control_Using_Push_Buttons_and_RGB_LEDs-Interrupt_Button_Counter_with_RGB_LED_Priority_and_Serial_Output) |
-| 03 | External Interrupt and Pull-Up Button | GPIO, EXTI | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/STM32_F401RE_External_Interrupt_and_Pull-Up_Button) |
-| 04 | Car Control System | GPIO, PWM, UART | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/STM32_F401RE_Car_Control) |
-| 05 | Potentiometer → LED Brightness (ADC + PWM) | ADC, PWM, Timer | Mbed OS | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/Potentiometer_Servo_STM32_F401RE) |
-| 06 | PWM Timer & Periodic Interrupts | Timer, PWM | Wokwi Sim | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/Simulating_PWM_Timer_and_Periodic_Interrupts_on_Wokwi) |
-| 07 | UART-Based Servo Motor Control | UART, PWM, Timer | Wokwi Sim | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/UART-Based_Servo_Motor_Control_on_Wokwi) |
+| 01 | External Interrupt with Push Buttons & RGB LEDs | GPIO, EXTI | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/03_Interrupts) |
+| 02 | Button Counter with RGB LED Priority & Serial Output | GPIO, EXTI, UART | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/03_Interrupts) |
+| 03 | External Interrupt and Pull-Up Button | GPIO, EXTI | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/03_Interrupts) |
+| 04 | Car Control System | GPIO, PWM, UART | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/Final_Project/Documentation) |
+| 05 | Potentiometer → LED Brightness (ADC + PWM) | ADC, PWM, Timer | Mbed OS | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/05_ADC_DAC) |
+| 06 | PWM Timer & Periodic Interrupts | Timer, PWM | Wokwi Sim | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/02_Timers_PWM) |
+| 07 | UART-Based Servo Motor Control | UART, PWM, Timer | Wokwi Sim | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/04_UART_Communication) |
 
 ---
 
