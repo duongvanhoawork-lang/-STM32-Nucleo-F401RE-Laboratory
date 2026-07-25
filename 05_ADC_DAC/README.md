@@ -1,5 +1,10 @@
 # 📊 ADC & DAC: Analog-to-Digital / Digital-to-Analog
 
+<div align="center">
+  <img src="download.gif" alt="ADC to PWM Demonstration" width="600" />
+</div>
+
+
 ## 📝 Overview
 This section focuses on reading analog signals (ADC) and generating analog voltages (DAC, though STM32F401RE does not have an internal DAC, PWM + Low Pass Filter can be used as an alternative).
 
