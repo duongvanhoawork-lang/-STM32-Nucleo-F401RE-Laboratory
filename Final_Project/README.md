@@ -1,5 +1,10 @@
 # 🏁 Final Project: Bluetooth Line Follower Car
 
+<div align="center">
+  <img src="bluetooth-line-follower-car.gif" alt="Bluetooth Line Follower Car Demo" width="600" />
+</div>
+
+
 ## 📝 Overview
 This directory contains the final coursework project for the STM32 Embedded Systems laboratory: a Bluetooth-controlled Line Follower Car. The project integrates multiple peripherals (GPIO, PWM, UART, ADC) and control logic to build a functional robotic vehicle.
 
