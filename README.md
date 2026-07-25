@@ -43,10 +43,10 @@ STM32_NUCLEO_F401RE/                          ← This companion repo
 ├── 📂 03_Interrupts/                         ← EXTI Lab materials
 ├── 📂 04_UART_Communication/                 ← UART Lab materials
 ├── 📂 05_ADC_DAC/                            ← ADC/DAC Lab materials
+├── 📂 06_SPI_Communication/                  ← SPI Lab materials
+├── 📂 07_I2C_Communication/                  ← I2C Lab materials
 ├── 📂 Final_Project/                         ← Final Coursework Project
-│   ├── 📂 Hardware/
-│   ├── 📂 Software/
-│   └── 📂 Documentation/
+│   └── 📂 bluetooth-line-follower-car/
 │
 ├── 📂 docs/                                  ← Documentation & notes
 │   ├── setup/
@@ -150,10 +150,12 @@ graph LR
 | 01 | External Interrupt with Push Buttons & RGB LEDs | GPIO, EXTI | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/03_Interrupts) |
 | 02 | Button Counter with RGB LED Priority & Serial Output | GPIO, EXTI, UART | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/03_Interrupts) |
 | 03 | External Interrupt and Pull-Up Button | GPIO, EXTI | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/03_Interrupts) |
-| 04 | Car Control System | GPIO, PWM, UART | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/Final_Project/Documentation) |
+| 04 | Bluetooth Line Follower Car | GPIO, PWM, UART, ADC | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/Final_Project/bluetooth-line-follower-car) |
 | 05 | Potentiometer → LED Brightness (ADC + PWM) | ADC, PWM, Timer | Mbed OS | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/05_ADC_DAC) |
 | 06 | PWM Timer & Periodic Interrupts | Timer, PWM | Wokwi Sim | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/02_Timers_PWM) |
 | 07 | UART-Based Servo Motor Control | UART, PWM, Timer | Wokwi Sim | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/04_UART_Communication) |
+| 08 | SPI Communication Lab | SPI | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/06_SPI_Communication) |
+| 09 | I2C Communication Lab | I2C | Hardware | [→ View](https://github.com/duongvanhoawork-lang/-STM32-Nucleo-F401RE-Laboratory/tree/main/07_I2C_Communication) |
 
 ---
 

@@ -1,15 +1,16 @@
-# 🏁 Final Project: Car Control System
+# 🏁 Final Project: Bluetooth Line Follower Car
 
 ## 📝 Overview
-This directory contains the final coursework project for the STM32 Embedded Systems laboratory. The project integrates multiple peripherals (GPIO, PWM, UART, Timers) to build a functional Car Control System.
+This directory contains the final coursework project for the STM32 Embedded Systems laboratory: a Bluetooth-controlled Line Follower Car. The project integrates multiple peripherals (GPIO, PWM, UART, ADC) and control logic to build a functional robotic vehicle.
 
 ## 📂 Directory Structure
-- `Documentation/`: Presentations, reports, and system design documents.
-    - `2026-05-26T08_28_22.670Z_STM32_Car_Control_Assignment_Active_Learning_4_Group4_Submit.pptx`: Group presentation.
-- `Hardware/`: (Planned) Schematics and wiring diagrams for the car chassis, motor drivers (e.g., L298N), and sensors.
-- `Software/`: (Planned) The complete STM32CubeIDE project source code.
+- `bluetooth-line-follower-car/`: The core project folder containing the implementation.
+  - `main.cpp`: Main source code.
+  - `Overview.pdf`: Project overview and specifications.
+  - `Project_slides.pdf`: Presentation slides for the final project.
 
-## 🎯 Project Features (Planned)
-- Remote control via Bluetooth/UART.
-- Motor speed control using PWM.
-- Sensor integration (e.g., Ultrasonic for obstacle avoidance).
+## 🎯 Project Features
+- **Line Tracking**: Uses IR sensors and ADC/GPIO to detect and follow a path.
+- **Remote Control**: Bluetooth module integration via UART to allow manual override or mode switching.
+- **Motor Control**: PWM signals to control motor speed and steering via motor drivers (e.g., L298N).
+- **System Integration**: Combines multiple microcontroller peripherals into a unified embedded system.
